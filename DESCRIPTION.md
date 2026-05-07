@@ -1,16 +1,7 @@
-RakshaKavach — Android app repository for (project description).
+RakshaKavach is an Android-based industrial safety and worker protection application designed to improve workplace safety awareness, risk management, and incident tracking for employees working in hazardous environments.
 
-Short description:
-An Android application providing security and monitoring features (placeholder). Replace with the project-specific description.
+The application helps workers follow safety procedures before starting tasks by providing safety checklists, risk analysis, PPE (Personal Protective Equipment) validation, daily quizzes, safety scoring, and incident logging.
 
-Suggested GitHub description (one line):
-RakshaKavach — Android security & monitoring app built with Gradle.
+Built using Java and Android Studio, the project follows a modular architecture with Room Database integration for local data storage, RecyclerView-based dynamic interfaces, notification reminders, and interactive safety modules.
 
-Suggested topics/tags:
-- android
-- kotlin
-- java
-- gradle
-- security
-
-Replace the placeholders above with accurate project details before publishing.
+The main goal of RakshaKavach is to reduce workplace accidents by encouraging safe behavior and helping workers monitor risks associated with industrial tasks.
