@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Raksha-Kavach</string>
+    <string name="tagline">Worker Safety Auditor</string>
+    <string name="select_task">Select Your Task</string>
+    <string name="safety_checklist">Safety Gear Checklist</string>
+    <string name="risk_meter">Risk Meter</string>
+    <string name="incident_log">Incident Log</string>
+    <string name="daily_quiz">Daily Safety Quiz</string>
+    <string name="safety_score">Safety Score</string>
+    <string name="start_day">Start of Day Check</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="report_near_miss">Report Near Miss</string>
+    <string name="notification_title">🦺 Raksha-Kavach Safety Reminder</string>
+    <string name="notification_text">Start your day safe! Complete your safety checklist before work.</string>
+    <string name="channel_id">raksha_kavach_channel</string>
+    <string name="channel_name">Safety Reminders</string>
+    <!-- API Config - Replace with your key -->
+    <string name="gemini_api_key">YOUR_GEMINI_API_KEY_HERE</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Industrial Yellow/Black High-Visibility Theme -->
+    <color name="primary_yellow">#FFD600</color>
+    <color name="primary_yellow_dark">#F9A825</color>
+    <color name="primary_black">#1A1A1A</color>
+    <color name="surface_dark">#212121</color>
+    <color name="surface_card">#2C2C2C</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#BDBDBD</color>
+    <color name="text_on_yellow">#1A1A1A</color>
+    <color name="accent_red">#F44336</color>
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_orange">#FF9800</color>
+    <color name="risk_low">#4CAF50</color>
+    <color name="risk_medium">#FF9800</color>
+    <color name="risk_high">#F44336</color>
+    <color name="risk_critical">#B71C1C</color>
+    <color name="divider">#3A3A3A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="score_bg">#263238</color>
+    <color name="checklist_checked">#4CAF50</color>
+    <color name="checklist_unchecked">#616161</color>
+</resources>

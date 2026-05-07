@@ -1,39 +1,3 @@
-# RakshaKavach
-
-RakshaKavach — Android application repository.
-
-This project contains the Android app built with Gradle. Use the instructions below to build and run the app locally.
-
-## Requirements
-- Java JDK 11+
-- Android SDK (command-line tools)
-- Gradle (wrapper included)
-- A connected Android device or emulator
-
-## Build
-Windows:
-
-```powershell
-.\\gradlew assembleDebug
-```
-
-Unix/macOS:
-
-```bash
-./gradlew assembleDebug
-```
-
-## Install APK
-
-```bash
-adb install -r app/build/outputs/apk/debug/app-debug.apk
-```
-
-## Run tests
-
-```bash
-# RakshaKavach
-
 RakshaKavach — A lightweight Android app focused on safety, monitoring, and quick-response features.
 
 Overview

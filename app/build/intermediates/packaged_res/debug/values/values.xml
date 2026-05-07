@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_orange">#FF9800</color>
+    <color name="accent_red">#F44336</color>
+    <color name="black">#000000</color>
+    <color name="checklist_checked">#4CAF50</color>
+    <color name="checklist_unchecked">#616161</color>
+    <color name="divider">#3A3A3A</color>
+    <color name="primary_black">#1A1A1A</color>
+    <color name="primary_yellow">#FFD600</color>
+    <color name="primary_yellow_dark">#F9A825</color>
+    <color name="risk_critical">#B71C1C</color>
+    <color name="risk_high">#F44336</color>
+    <color name="risk_low">#4CAF50</color>
+    <color name="risk_medium">#FF9800</color>
+    <color name="score_bg">#263238</color>
+    <color name="surface_card">#2C2C2C</color>
+    <color name="surface_dark">#212121</color>
+    <color name="text_on_yellow">#1A1A1A</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#BDBDBD</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="card_radius">12dp</dimen>
+    <dimen name="icon_size">48dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="text_body">16sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+    <dimen name="text_title">24sp</dimen>
+    <string name="app_name">Raksha-Kavach</string>
+    <string name="channel_id">raksha_kavach_channel</string>
+    <string name="channel_name">Safety Reminders</string>
+    <string name="daily_quiz">Daily Safety Quiz</string>
+    <string name="done">Done</string>
+    <string name="gemini_api_key">YOUR_GEMINI_API_KEY_HERE</string>
+    <string name="incident_log">Incident Log</string>
+    <string name="next">Next</string>
+    <string name="notification_text">Start your day safe! Complete your safety checklist before work.</string>
+    <string name="notification_title">🦺 Raksha-Kavach Safety Reminder</string>
+    <string name="report_near_miss">Report Near Miss</string>
+    <string name="risk_meter">Risk Meter</string>
+    <string name="safety_checklist">Safety Gear Checklist</string>
+    <string name="safety_score">Safety Score</string>
+    <string name="select_task">Select Your Task</string>
+    <string name="start_day">Start of Day Check</string>
+    <string name="submit">Submit</string>
+    <string name="tagline">Worker Safety Auditor</string>
+    <style name="CardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/surface_card</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+    <style name="SectionTitle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/primary_yellow</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Theme.RakshaKavach" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_yellow</item>
+        <item name="colorPrimaryVariant">@color/primary_yellow_dark</item>
+        <item name="colorOnPrimary">@color/text_on_yellow</item>
+        <item name="colorSecondary">@color/primary_yellow</item>
+        <item name="colorSecondaryVariant">@color/primary_yellow_dark</item>
+        <item name="colorOnSecondary">@color/text_on_yellow</item>
+        <item name="android:colorBackground">@color/primary_black</item>
+        <item name="colorSurface">@color/surface_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/primary_black</item>
+        <item name="android:navigationBarColor">@color/primary_black</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+    <style name="Theme.RakshaKavach.Splash" parent="Theme.RakshaKavach">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="YellowButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary_yellow</item>
+        <item name="android:textColor">@color/text_on_yellow</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+</resources>
